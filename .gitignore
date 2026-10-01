@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 데이터 (원본/가공 데이터는 Git에 올리지 않음, 폴더 구조만 유지)
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# 비밀 정보
+.env
+*.key
